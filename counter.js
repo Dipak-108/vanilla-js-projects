@@ -1,4 +1,4 @@
-let counter = 0;
+
 
 /*
 
@@ -23,6 +23,9 @@ document.getElementById("number_change").innerHTML=counter;
 */
 
 //console.log(document.querySelectorAll(".btn "));
+
+
+counter =0;
 
 let btns = document.querySelectorAll(".btn");
 let value=document.querySelector("#number_change");
