@@ -1,0 +1,45 @@
+*{
+    margin:0px ;
+    padding: 0px;
+    overflow: hidden;
+}
+
+
+.container{
+    border: 2px solid black;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+h1{
+    
+    font-size: 50px;
+    text-align: center;
+    color: hsla(225, 95%, 16%, 0.888);
+}
+
+#number_change{
+    font-size: 30px;
+    text-align: center;
+    color: green;
+    padding: 20px;
+}
+
+button{
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+button:hover{
+    background-color: rgb(159, 165, 163);
+    cursor: pointer;
+}
